@@ -1,15 +1,23 @@
 {
-  "name": "crud_authentication",
+  "name": "backend-demo-deploy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js",
+    "server":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandit0305/backend-demo-deploy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandit0305/backend-demo-deploy/issues"
+  },
+  "homepage": "https://github.com/pandit0305/backend-demo-deploy#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
